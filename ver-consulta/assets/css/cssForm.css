@@ -1655,7 +1655,7 @@ body.cb-sf main.main-content form .search-steps-container .steps label:has(>inpu
 
 body.cb-sf main.main-content form .search-steps-container .steps label:has(>input[type=radio]:checked) {
     background: #0d0ad4;
-    box-shadow: 0 0 0 4px rgba(255,46,41,.25)
+    box-shadow: 0 0 0 4px rgba(66, 115, 179, 0.25)
 }
 
 body.cb-sf main.main-content form .search-steps-container .steps label:has(>input[type=radio]:checked)[for=gay] {
@@ -1682,7 +1682,7 @@ body.cb-sf main.main-content form .search-steps-container .steps input {
 
 body.cb-sf main.main-content form .search-steps-container .steps input:focus,body.cb-sf main.main-content form .search-steps-container .steps input:hover {
     border: 1px solid #0a06e2;
-    box-shadow: 0 0 0 4px rgba(255,46,41,.25)
+    box-shadow: 0 0 0 4px rgba(41, 141, 255, 0.25)
 }
 
 body.cb-sf main.main-content form .search-steps-container .steps input[type=radio] {
@@ -1753,7 +1753,7 @@ body.cb-sf main.main-content form .search-steps-container .steps.upload-face-con
 
 body.cb-sf main.main-content form .search-steps-container .steps.upload-face-container button:active {
     background: #071ee9;
-    box-shadow: 0 0 0 4px rgba(255,46,41,.25)
+    box-shadow: 0 0 0 4px rgba(43, 148, 247, 0.25)
 }
 
 body.cb-sf main.main-content form .search-steps-container .steps.upload-face-container button .camera-icon {
