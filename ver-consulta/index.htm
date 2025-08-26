@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Veja o resultado da sua busca | SigiloX</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="assets/css/cssForm.css" rel="preload stylesheet" type="text/css" onload="this.media='all'">
+    <link rel="icon" type="image/png" href="assets/images/16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/images/32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/96x96.png" sizes="96x96">
+    <link rel="shortcut icon" href="assets/images/196x196.png" sizes="196x196">
+    <link rel="apple-touch-icon" href="../images/icons/new/120x120-1.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="../images/icons/new/152x152-1.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="../images/icons/new/180x180-1.png" sizes="180x180">
+    <meta name="description" content="Um poderoso mecanismo de busca de perfis do Tinder e a maneira mais fácil de encontrar alguém no Tinder. Veja atividade recente e encontre evidências de infidelidade com Cheaterbuster.">
+    <meta name="keywords" content="tinder,busca de perfil,busca perfil tinder,encontrar,pessoas,tinderbust,rastrear,rastreamento,rastreamento-tinder,rastrear no tinder,rastreador tinder,flagrar,flagrador,cheaterbuster,swipe buster,swipe,traição,traindo">
+    <meta property="og:image" content="assets/images/meta_shared_image.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <link href="assets/css/faceReco.css" rel="stylesheet" type="text/css" media="print" onload="this.media='all'">
+
+    <style>
+        @media (min-width: 991px){
+            .logo-principal-img{ 
+                width: 10%;
+                margin-top: 1%;
+            }
+        }
+
+        @media (max-width: 991px){
+            .logo-principal-img{ 
+                width: 30%;
+                margin-top: 1%;
+                 
+                margin-inline: auto !important;
+            }
+        }
+
+        .profile {
+            background: #000 url(assets/images/icons/hp-profile.png) no-repeat center center !important;
+            background-size: 20px;
+        }
+
+        input[type='number'] {
+            -moz-appearance:textfield;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        #suggestions {
+            position: absolute;
+            background: white;
+            max-height: 200px;
+            overflow-y: auto;
+            width: 300px;
+            z-index: 1000;
+            color: black;
+            border-radius: 10px;
+        }
+        .suggestion {
+            padding: 8px;
+            cursor: pointer;
+        }
+        .suggestion:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KSSMWK67');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="cb-sf lang-pt">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSSMWK67" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Cabeçalho -->
+    <div class="header">
+        <div class="content">
+            <!--<div class="logo cheaterbusterLogo" data-href="/"></div>-->
+            <img class="logo-principal-img" src="../images/Logo-SigiloX-red.png">
+            <nav id="menu" class="panel" role="navigation">
+                <ul class="main-list">
+                    <!-- <li class="menuOverride showLoginPopUp header-cta main-link">Login</li> -->
+                    <span>Main</span>
+                </ul>
+                <ul id="resource-nav"><span>resources</span></ul>
+            </nav>
+            <div class="menu-open-overlay"></div>
+            <div class="mobile-btns">
+                <div style="margin-left: 8px;"><a href="#!"></a></div>
+            </div>
+        </div> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none">
+            <polygon fill="white" points="0,100 100,0 100,100"></polygon>
+        </svg>
+    </div>
+    <!-- Cabeçalho -->
+
+    <main class="main-content">
+        <form id="formSolicitud" action="./Controllers/SendResult.php" method="post">
+            <div class="search-steps-container">
+                <div class="looking-for"> <span>VEJA SEU RESULTADO</span>
+                    <p>Insira seu email usado no formulário da consulta para acessar o resultado.</p>
+                </div>
+                <div class="steps email-container"> <span class="icon email-icon"></span>
+                                        <h5>Para qual email devemos enviar o resultado?</h5> <label for="email">email usado na consulta</label> <input class="focus" id="email" name="email" placeholder="Insira o seu email aqui..." type="email" autocomplete="off">
+                </div>
+
+            </div> 
+
+            <input name="sendresult" value="" type="hidden">
+            
+            <button id="submitForm" class="start-search">Ver Último Resultado<span></span></button>
+        </form>
+        <div class="overlay"></div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="siteFooter">
+        <h3>Sigilo <span>X</span></h3> <span class="copyright">© SigiloX 2025.</span>
+
+        <div class="social-links">
+            <a href="https://sigilox.com/instagram" class="instagram" aria-label="instagram"></a> 
+            <a href="https://sigilox.com/youtube" class="youtube" aria-label="youtube"></a>
+            <a href="https://sigilox.com/tiktok" class="tiktok" aria-label="tiktok"></a> 
+        </div>
+        
+        <div class="footer-links-container">
+            <div class="main-links"> 
+                <span>Funcionalidades</span> 
+                <a href="../index-1.htm">Procurar</a>
+<a href="index.htm">Já comprei</a> 
+            </div>
+            <div class="resource-links"> 
+                <span>Recursos</span> 
+                <a href="../sobre-nos/index.htm">Sobre nós</a> 
+                <a href="../faq/index.htm">FAQ</a>
+            </div>
+        </div>
+
+        <div class="pp-tc-links">
+            <a href="https://sigilox.com/politica-de-privacidade">Política de privacidade</a> 
+            <a href="https://sigilox.com/termos-e-condicoes-de-uso">Termos e condições de uso</a> 
+        </div>
+    </footer>
+    <!-- Rodapé -->
+
+    <div class="modal-overlay">
+        <div class="modal-background"></div>
+        <div class="modal-content"></div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    
+    <script>
+        function enforceMinMax(el) {
+            if (el.value != "") {
+                // Remove any non-numeric characters
+                el.value = el.value.replace(/\D/g, '');
+                
+                if (parseInt(el.value) > parseInt(el.max)) {
+                    el.value = el.value.slice(0, 2);
+                }
+            }
+        }
+
+        $(document).ready(function () {
+            const params = new URLSearchParams(window.location.search);
+            const gender = params.get('gender');
+
+            if (gender) {
+                $(`input[name="gender"][value="${gender}"]`).prop("checked", true);
+            }
+        });
+
+        function getRandomTime(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min) * 1000;
+        }
+
+        function createLoadingOverlay() {
+            const overlay = document.createElement('div');
+            overlay.className = 'process-overlay';
+            overlay.innerHTML = `
+                <div class="process-content">
+                    <div class="loader"></div>
+                    <div class="process-text"></div>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+            return overlay;
+        }
+
+        function updateLoadingText(text) {
+            document.querySelector('.process-text').textContent = text;
+        }
+
+        async function showLoadingProcess() {
+            const processes = [
+                { text: '🔄 Enviando informações para o servidor', time: getRandomTime(1, 1.5) },
+                { text: '🔍 Procurando perfis na localização selecionada', time: getRandomTime(1, 1.5) },
+                { text: '✅ Perfis encontrados', time: getRandomTime(1, 1.5) },
+                { text: '📋 Montando relatório', time: getRandomTime(1, 1.5) }
+            ];
+
+            createLoadingOverlay();
+
+            for (const process of processes) {
+                updateLoadingText(process.text);
+                await new Promise(resolve => setTimeout(resolve, process.time));
+            }
+
+            // Melhorar a captura do endereço
+            let selectedAddress;
+
+            selectedAddress = JSON.parse(document.getElementById('addressSelected').value);
+
+            console.log("Endereço selecionado:", selectedAddress);
+
+            // Create formData with minimal necessary information
+            const formData = {
+                name: $('#name').val(),
+                age: $('#age').val(),
+                email: $('#email').val(),
+                gender: $('input[name="gender"]:checked').val() === 'M' ? 1 : 0,
+                location: {
+                    lat: $('#lat').val(),
+                    lng: $('#lng').val(),
+                    address: selectedAddress.nome || 'Localização não especificada',
+                    formatted: selectedAddress.nome
+                }
+            };
+
+            try {
+                try {
+                    localStorage.removeItem('searchProfile');
+                    localStorage.removeItem('tempFaceImages');
+                } catch (e) {
+                    console.warn('Error clearing localStorage:', e);
+                }
+
+                localStorage.setItem('searchProfile', JSON.stringify(formData));
+            } catch (e) {
+                console.warn('Failed to save to localStorage:', e);
+            }
+
+            const faceImages = JSON.parse(localStorage.getItem('faceRecognitionImages') || '[]');
+            if (faceImages.length > 0) {
+                try {
+                    sessionStorage.setItem('tempFaceImages', JSON.stringify(faceImages));
+                } catch (e) {
+                    console.warn('Failed to save face images to sessionStorage:', e);
+                }
+            }
+
+            // Remove overlay and redirect
+            const overlay = document.querySelector('.process-overlay');
+            if (overlay) {
+                overlay.remove();
+            }
+
+            const currentParams = new URLSearchParams(window.location.search);
+
+            currentParams.set("name", formData.name);
+            currentParams.set("age", formData.age);
+            currentParams.set("email", formData.email);
+            currentParams.set("gender", formData.gender);
+            currentParams.set("lat", formData.location.lat);
+            currentParams.set("lng", formData.location.lng);
+            currentParams.set("address", formData.location.address);
+
+            // Prepare the request payload
+            const payload = {
+                "nome": "",
+                "email": formData.email,
+                "localizacao": formData.location.address,
+                "idade": formData.age,
+                "genero": formData.gender === 'M' ? 'Masculino' : 'Feminino',
+                "nomebuscado": formData.name
+            };
+
+            // Send POST request to webhook
+            fetch('https://webhook.sellflux.app/webhook/custom/lead/2e463fcb1369be4d5dfbe87e04f60df2?name=nome&email=email&phone=loc', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const linkAfiliado = currentParams.get("infllink615050423423");
+                if (linkAfiliado != null) {
+                    window.location.href = `/search/result.html?${currentParams.toString()}`;
+                } else {
+                    window.location.href = `/search/results.html?${currentParams.toString()}`;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Still redirect even if the webhook fails
+                const linkAfiliado = currentParams.get("infllink615050423423");
+                if (linkAfiliado != null) {
+                    window.location.href = `/search/result.html?${currentParams.toString()}`;
+                } else {
+                    window.location.href = `/search/results.html?${currentParams.toString()}`;
+                }
+            });
+        }
+
+        // Melhorar a função de formatação do endereço
+        function formatAddress(address) {
+            if (!address) return '';
+            
+            // Divide o endereço em partes
+            const parts = address.split(',').map(part => part.trim());
+            
+            // Se tiver mais de 2 partes, pega as últimas 2 (geralmente cidade e estado/país)
+            if (parts.length > 2) {
+                return parts.slice(-2).join(', ');
+            }
+            
+            // Se tiver 2 ou menos partes, retorna o endereço formatado como está
+            return parts.join(', ');
+        }
+    </script>
+
+    <script id="mainJs" src="assets/js/new-site.min.js"></script>
+
+    <script>
+        function getDeviceType() {
+            const ua = navigator.userAgent;
+            if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+                return "mobile";
+            }
+            return "desktop";
+        }
+
+        function getUrlParams() {
+            const searchParams = new URLSearchParams(window.location.search);
+            const params = {};
+            
+            for (const [key, value] of searchParams.entries()) {
+                params[key] = value;
+            }
+            
+            return params;
+        }
+
+        function trackEvent(eventName) {
+            const img = new Image();
+            const page = window.location.pathname;
+            const urlParams = getUrlParams();
+            const device = getDeviceType();
+            
+            const params = {
+                event: eventName,
+                page: page,
+                device: device,
+                jsonParams: JSON.stringify(urlParams)
+            };
+
+            // img.src = `/search/Controllers/PixelController.php?RegisterEvent=1&data=${encodeURIComponent(JSON.stringify(params))}`;
+        }
+
+        function initializeSearchTracking() {
+            // Track page view when the page loads
+            document.addEventListener('DOMContentLoaded', () => {
+                trackEvent('search_page_view');
+                
+                // Track search form submission
+                const searchForm = document.querySelector('#submitForm');
+                if (searchForm) {
+                    searchForm.addEventListener('click', () => {
+                        trackEvent('search_form_submit');
+                    });
+                }
+
+                // Track search input interactions
+                const searchInputs = document.querySelectorAll('input[type="text"]');
+                searchInputs.forEach(input => {
+                    input.addEventListener('focus', () => {
+                        trackEvent('search_input_focus');
+                    });
+                });
+
+                // Track search button clicks
+                const searchButtons = document.querySelectorAll('button[type="submit"]');
+                searchButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        trackEvent('search_button_click');
+                    });
+                });
+
+                // Track navigation interactions
+                const navigationLinks = document.querySelectorAll('nav a');
+                navigationLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        trackEvent(`navigation_click_${link.textContent.toLowerCase().replace(/[^a-z0-9]/g, '_')}`);
+                    });
+                });
+
+                // Track login button clicks
+                const loginButtons = document.querySelectorAll('.showLoginPopUp, .mobile-btns a');
+                loginButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        trackEvent('login_button_click');
+                    });
+                });
+            });
+        }
+
+        initializeSearchTracking();
+    </script>
+
+    <script>
+        function normalizarTexto(texto) {
+            return texto
+                .normalize("NFD")               // separa acentos das letras
+                .replace(/[\u0300-\u036f]/g, "") // remove os acentos
+                .toLowerCase();                 // transforma em minúsculas
+        }
+
+        let cidades = [];
+
+        // Carrega o JSON externo com fetch
+        fetch('cidades.json')
+        .then(response => response.json())
+        .then(data => {
+            cidades = data;
+        })
+        .catch(error => {
+            console.error('Erro ao carregar cidades:', error);
+        });
+
+        const input = document.getElementById('location');
+        const suggestions = document.getElementById('suggestions');
+
+        input.addEventListener('input', () => {
+        const query = input.value.toLowerCase();
+        suggestions.innerHTML = '';
+
+        if (query.length === 0 || cidades.length === 0) return;
+
+        const resultados = cidades
+            .filter(c => normalizarTexto(c.nome).includes(normalizarTexto(query)))
+            .slice(0, 10);
+
+        resultados.forEach(cidade => {
+            const div = document.createElement('div');
+            div.classList.add('suggestion');
+            div.textContent = cidade.nome;
+            div.onclick = () => {
+                input.value = cidade.nome;
+                suggestions.innerHTML = '';
+                console.log("Cidade selecionada:");
+                console.log("Nome:", cidade.nome);
+                console.log("Latitude:", cidade.latitude);
+                console.log("Longitude:", cidade.longitude);
+                document.getElementById('addressSelected').value = JSON.stringify(cidade);
+                document.getElementById('lat').value = cidade.latitude;
+                document.getElementById('lng').value = cidade.longitude;
+            };
+            suggestions.appendChild(div);
+        });
+        });
+
+        document.addEventListener('click', (e) => {
+        if (!suggestions.contains(e.target) && e.target !== input) {
+            suggestions.innerHTML = '';
+        }
+        });
+    </script>
+</body>
+
+</html>

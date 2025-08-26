@@ -1,0 +1,864 @@
+Uri: http://sigilox.com/affiliates/assets/fonts/OpenSans-Regular.ttf
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\fonts\OpenSans-Regular.ttf
+Content Type: font/ttf
+
+Uri: http://sigilox.com/affiliates/assets/fonts/Poppins-Light.ttf
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\fonts\Poppins-Light.ttf
+Content Type: font/ttf
+
+Uri: http://sigilox.com/affiliates/assets/fonts/Poppins-SemiBold.ttf
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\fonts\Poppins-SemiBold.ttf
+Content Type: font/ttf
+
+Uri: http://sigilox.com/affiliates/assets/img/bitcoin.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\bitcoin.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/cashapp_black.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\cashapp_black.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/cashapp_square.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\cashapp_square.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/copy_paste.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\copy_paste.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/ethereum.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\ethereum.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/ethereum_grid.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\ethereum_grid.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/fb_icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\fb_icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/g_drive.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\g_drive.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/insta_icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\insta_icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/paypal.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\paypal.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/paypal_square.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\paypal_square.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/tktk_icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\tktk_icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/venmo.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\venmo.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/yt_icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\yt_icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/affiliates/assets/img/zelle.jpg
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\zelle.jpg
+Content Type: image/jpeg
+
+Uri: http://sigilox.com/affiliates/assets/img/zelle_square.png
+File Name: C:\Downloaded Web Sites\sigilox.com\affiliates\assets\img\zelle_square.png
+Content Type: image/png
+
+Uri: http://sigilox.com/assets/fonts/Druk-Medium.woff2
+File Name: C:\Downloaded Web Sites\sigilox.com\assets\fonts\Druk-Medium-1.woff2
+Content Type: font/woff2
+
+Uri: http://sigilox.com/assets/fonts/WorkSans.woff2
+File Name: C:\Downloaded Web Sites\sigilox.com\assets\fonts\WorkSans-1.woff2
+Content Type: font/woff2
+
+Uri: http://sigilox.com/css/content.min4709.css?v=707
+File Name: C:\Downloaded Web Sites\sigilox.com\css\content.min4709.css
+Content Type: text/css
+
+Uri: http://sigilox.com/css/new-faq.min4709.css
+File Name: C:\Downloaded Web Sites\sigilox.com\css\new-faq.min4709.css
+Content Type: text/css
+
+Uri: http://sigilox.com/css/new-site.min4709.css
+File Name: C:\Downloaded Web Sites\sigilox.com\css\new-site.min4709-2.css
+Content Type: text/css
+
+Uri: http://sigilox.com/css/new-site.min4709.css?v=707
+File Name: C:\Downloaded Web Sites\sigilox.com\css\new-site.min4709-1.css
+Content Type: text/css
+
+Uri: http://sigilox.com/faq/
+File Name: C:\Downloaded Web Sites\sigilox.com\faq\index.htm
+Content Type: text/html
+
+Uri: http://sigilox.com/faq/index.html
+File Name: C:\Downloaded Web Sites\sigilox.com\faq\index.html
+Content Type: text/html
+
+Uri: http://sigilox.com/images/as_seen/buzzfeed.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\buzzfeed-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/as_seen/cosmopolitan.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\cosmopolitan-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/as_seen/independent.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\independent-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/as_seen/vanity_fair.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\vanity_fair-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/chrome.gif
+File Name: C:\Downloaded Web Sites\sigilox.com\images\chrome-1.gif
+Content Type: image/gif
+
+Uri: http://sigilox.com/images/hp-bed-mobile.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-bed-mobile-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/hp-bed.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-bed-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/hp-gma-video.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-gma-video-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/hp-location-frame.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-location-frame-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/hp_bg_top_1420.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp_bg_top_1420-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/hp_bg_top_800.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp_bg_top_800-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/hp_checkmark.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp_checkmark-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/arrow-down.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\arrow-down-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/arrow-right.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\arrow-right-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/chrome.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\chrome-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/icons/email.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\email-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/expand_menu.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\expand_menu-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/eye_pw.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\eye_pw-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/fb-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\fb-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-calendar-blank.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-calendar-blank-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-chat-bubble.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-chat-bubble-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-comment-arrow.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-comment-arrow-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-location.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-location-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-play-video-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-play-video-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-profile.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-profile-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-selfie-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-selfie-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-solid-check-square.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-solid-check-square-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-stopwatch-timer.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-stopwatch-timer-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/hp-tinder.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-tinder-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/ig-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\ig-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/linkedin-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\linkedin-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/lock.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\lock-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/mobile-menu.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\mobile-menu-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/icons/modal/error.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\error-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/facebook.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\facebook-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/insta_update.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\insta_update-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/regular_update.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\regular_update-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/success.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\success-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/super_update.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\super_update-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/warning.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\warning-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/modal/weekly_regular.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\weekly_regular-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/120x120.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\120x120-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/152x152.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\152x152-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/16x16.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\16x16-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/180x180.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\180x180-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/196x196.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\196x196-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/32x32.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\32x32-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/new/96x96.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\96x96-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/pencil.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\pencil-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/red-arrow.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\red-arrow-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/icons/red-x.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\red-x-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/icons/safari.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\safari-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/icons/tiktok-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\tiktok-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/icons/youtube-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\youtube-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/Logo-SigiloX-red.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\Logo-SigiloX-red-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/new-ai-icon.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new-ai-icon-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/new_loading.gif
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new_loading-1.gif
+Content Type: image/gif
+
+Uri: http://sigilox.com/images/new_logo.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new_logo-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/new_logo_mobile.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new_logo_mobile-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/payment/amex.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\amex-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/payment/credit-card.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\credit-card-1.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/images/payment/discover.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\discover-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/payment/mc.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\mc-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/payment/new-paypal-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\new-paypal-icon-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/payment/powered_by_paypal.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\powered_by_paypal-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/payment/visa.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\visa-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/images/safari.gif
+File Name: C:\Downloaded Web Sites\sigilox.com\images\safari-1.gif
+Content Type: image/gif
+
+Uri: http://sigilox.com/images/video_bg.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\video_bg-1.webp
+Content Type: image/webp
+
+Uri: http://sigilox.com/images/video_play_btn.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\video_play_btn-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/index.html
+File Name: C:\Downloaded Web Sites\sigilox.com\index.html
+Content Type: text/html
+
+Uri: http://sigilox.com/js/modernizrf9e3.js?v=1.1
+File Name: C:\Downloaded Web Sites\sigilox.com\js\modernizrf9e3.js
+Content Type: application/javascript
+
+Uri: http://sigilox.com/js/new-faq4709.js?v=707
+File Name: C:\Downloaded Web Sites\sigilox.com\js\new-faq4709.js
+Content Type: application/javascript
+
+Uri: http://sigilox.com/js/new-site.min4709.js?v=707
+File Name: C:\Downloaded Web Sites\sigilox.com\js\new-site.min4709.js
+Content Type: application/javascript
+
+Uri: http://sigilox.com/search/assets/images/icons/gender-female.png
+File Name: C:\Downloaded Web Sites\sigilox.com\search\assets\images\icons\gender-female-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/search/assets/images/icons/gender-male.png
+File Name: C:\Downloaded Web Sites\sigilox.com\search\assets\images\icons\gender-male-1.png
+Content Type: image/png
+
+Uri: http://sigilox.com/sobre-nos/
+File Name: C:\Downloaded Web Sites\sigilox.com\sobre-nos\index.htm
+Content Type: text/html
+
+Uri: http://sigilox.com/ver-consulta/
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\index.htm
+Content Type: text/html
+
+Uri: http://sigilox.com/ver-consulta/assets/css/cssForm.css
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\css\cssForm.css
+Content Type: text/css
+
+Uri: http://sigilox.com/ver-consulta/assets/css/faceReco.css
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\css\faceReco.css
+Content Type: text/css
+
+Uri: http://sigilox.com/ver-consulta/assets/fonts/Druk-Medium.woff2
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\fonts\Druk-Medium.woff2
+Content Type: font/woff2
+
+Uri: http://sigilox.com/ver-consulta/assets/fonts/WorkSans-VariableFont_wght.ttf
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\fonts\WorkSans-VariableFont_wght.ttf
+Content Type: font/ttf
+
+Uri: http://sigilox.com/ver-consulta/assets/images/16x16.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\16x16.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/196x196.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\196x196.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/32x32.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\32x32.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/96x96.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\96x96.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/hero.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\hero.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/arrow-right.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\arrow-right.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/camera-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\camera-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/close-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\close-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/email.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\email.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/eye_pw.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\eye_pw.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/fb-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\fb-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/gender-female.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\gender-female.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/gender-male.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\gender-male.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/hp-calendar-blank.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\hp-calendar-blank.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/hp-location.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\hp-location.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/hp-profile.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\hp-profile.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/hp-selfie-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\hp-selfie-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/ig-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\ig-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/lock.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\lock.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/pencil.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\pencil.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/plus-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\plus-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/search-icon-form.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\search-icon-form.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/tiktok-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\tiktok-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/icons/youtube-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\icons\youtube-icon.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/new-ai-icon.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\new-ai-icon.svg
+Content Type: image/svg+xml
+
+Uri: http://sigilox.com/ver-consulta/assets/images/new_logo.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\new_logo.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/images/new_logo_mobile.png
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\images\new_logo_mobile.png
+Content Type: image/png
+
+Uri: http://sigilox.com/ver-consulta/assets/js/jquery.min.js
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: http://sigilox.com/ver-consulta/assets/js/new-site.min.js
+File Name: C:\Downloaded Web Sites\sigilox.com\ver-consulta\assets\js\new-site.min.js
+Content Type: application/javascript
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\sigilox.com\ajax\libs\jquery\3.6.0\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://sigilox.com/
+File Name: C:\Downloaded Web Sites\sigilox.com\index-1.htm
+Content Type: text/html
+
+Uri: https://sigilox.com/?utm_medium=copy
+File Name: C:\Downloaded Web Sites\sigilox.com\index.htm
+Content Type: text/html
+
+Uri: https://sigilox.com/assets/fonts/Druk-Medium.woff2
+File Name: C:\Downloaded Web Sites\sigilox.com\assets\fonts\Druk-Medium.woff2
+Content Type: font/woff2
+
+Uri: https://sigilox.com/assets/fonts/WorkSans.woff2
+File Name: C:\Downloaded Web Sites\sigilox.com\assets\fonts\WorkSans.woff2
+Content Type: font/woff2
+
+Uri: https://sigilox.com/css/new-site.min4709.css
+File Name: C:\Downloaded Web Sites\sigilox.com\css\new-site.min4709.css
+Content Type: text/css
+
+Uri: https://sigilox.com/images/as_seen/buzzfeed.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\buzzfeed.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/as_seen/cosmopolitan.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\cosmopolitan.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/as_seen/independent.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\independent.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/as_seen/vanity_fair.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\as_seen\vanity_fair.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/chrome.gif
+File Name: C:\Downloaded Web Sites\sigilox.com\images\chrome.gif
+Content Type: image/gif
+
+Uri: https://sigilox.com/images/hp-bed-mobile.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-bed-mobile.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/hp-bed.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-bed.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/hp-gma-video.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-gma-video.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/hp-location-frame.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp-location-frame.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/hp_bg_top_1420.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp_bg_top_1420.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/hp_bg_top_800.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp_bg_top_800.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/hp_checkmark.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\hp_checkmark.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/arrow-down.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\arrow-down.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/arrow-right.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\arrow-right.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/chrome.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\chrome.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/icons/email.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\email.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/expand_menu.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\expand_menu.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/eye_pw.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\eye_pw.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/fb-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\fb-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-calendar-blank.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-calendar-blank.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-chat-bubble.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-chat-bubble.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-comment-arrow.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-comment-arrow.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-location.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-location.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-play-video-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-play-video-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-profile.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-profile.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-selfie-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-selfie-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-solid-check-square.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-solid-check-square.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-stopwatch-timer.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-stopwatch-timer.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/hp-tinder.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\hp-tinder.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/ig-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\ig-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/linkedin-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\linkedin-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/lock.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\lock.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/mobile-menu.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\mobile-menu.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/icons/modal/error.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\error.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/facebook.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\facebook.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/insta_update.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\insta_update.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/regular_update.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\regular_update.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/success.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\success.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/super_update.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\super_update.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/warning.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\warning.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/modal/weekly_regular.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\modal\weekly_regular.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/120x120.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\120x120.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/152x152.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\152x152.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/16x16.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\16x16.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/180x180.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\180x180.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/196x196.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\196x196.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/32x32.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\32x32.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/new/96x96.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\new\96x96.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/pencil.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\pencil.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/red-arrow.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\red-arrow.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/icons/red-x.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\red-x.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/icons/safari.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\safari.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/icons/tiktok-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\tiktok-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/icons/youtube-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\icons\youtube-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/Logo-SigiloX-red.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\Logo-SigiloX-red.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/new-ai-icon.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new-ai-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/new_loading.gif
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new_loading.gif
+Content Type: image/gif
+
+Uri: https://sigilox.com/images/new_logo.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new_logo.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/new_logo_mobile.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\new_logo_mobile.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/payment/amex.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\amex.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/payment/credit-card.svg
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\credit-card.svg
+Content Type: image/svg+xml
+
+Uri: https://sigilox.com/images/payment/discover.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\discover.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/payment/mc.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\mc.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/payment/new-paypal-icon.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\new-paypal-icon.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/payment/powered_by_paypal.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\powered_by_paypal.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/payment/visa.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\payment\visa.png
+Content Type: image/png
+
+Uri: https://sigilox.com/images/safari.gif
+File Name: C:\Downloaded Web Sites\sigilox.com\images\safari.gif
+Content Type: image/gif
+
+Uri: https://sigilox.com/images/video_bg.webp
+File Name: C:\Downloaded Web Sites\sigilox.com\images\video_bg.webp
+Content Type: image/webp
+
+Uri: https://sigilox.com/images/video_play_btn.png
+File Name: C:\Downloaded Web Sites\sigilox.com\images\video_play_btn.png
+Content Type: image/png
+
+Uri: https://sigilox.com/index.html
+File Name: C:\Downloaded Web Sites\sigilox.com\index-1.html
+Content Type: text/html
+
+Uri: https://sigilox.com/search/assets/images/icons/gender-female.png
+File Name: C:\Downloaded Web Sites\sigilox.com\search\assets\images\icons\gender-female.png
+Content Type: image/png
+
+Uri: https://sigilox.com/search/assets/images/icons/gender-male.png
+File Name: C:\Downloaded Web Sites\sigilox.com\search\assets\images\icons\gender-male.png
+Content Type: image/png
+
+Uri: https://www.googletagmanager.com/gtag/js?id=AW-17024832780
+File Name: C:\Downloaded Web Sites\sigilox.com\gtag\js
+Content Type: application/javascript
+

@@ -1,0 +1,609 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+<head>
+    <title>Monitor360 | Encontre tudo que seu filho está fazendo na internet com Monitor360</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" href="images/icons/new/16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/icons/new/32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/icons/new/96x96.png" sizes="96x96">
+    <link rel="shortcut icon" href="images/icons/new/196x196.png" sizes="196x196">
+    <link rel="apple-touch-icon" href="images/icons/new/120x120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="images/icons/new/152x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="images/icons/new/180x180.png" sizes="180x180">
+
+    <meta name="description" content="Poderosa ferramenta de busca de perfis no Tinder. Saiba se qualquer pessoa usa ou já usou o Tinder.">
+    <meta name="keywords" content="tinder,procurar perfil,procurar perfil no tinder, procurar pessoa, procurar pessoa no tinder,tinderbust,rastrear, rastreamento,rastrear no tinder, tinder rastreador, rastreamento no tinder, traição, descobrir traição, descobrir, descobrir a verdade">
+
+    <meta property="og:image" content="/images/meta_shared_image.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <link rel="preload" media="(min-width: 768px)" href="images/hp_bg_top_1420.webp" as="image">
+    <link rel="preload" media="(max-width: 767px)" href="images/hp_bg_top_800.webp" as="image">
+    <link rel="preload" href="assets/fonts/Druk-Medium.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/WorkSans.woff2" as="font" crossorigin="anonymous">
+
+    <style>
+        @media (min-width: 991px){
+            .logo-principal-img{ 
+                width: 10%;
+                margin-top: 1%;
+            }
+        }
+
+        @media (max-width: 991px){
+            .logo-principal-img{ 
+                width: 30%;
+                margin-top: 1%;
+                 
+                margin-inline: auto !important;
+            }
+        }
+
+        .gender-selection {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            justify-content: center;
+        }
+
+        .gender-container {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+
+        .gender-btn {
+            padding: 0.8rem 2rem;
+            border: 2px solid #44a5ff;
+            background: transparent;
+            color: #44abff;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .gender-btn.selected {
+            background: #4a88fc;
+            color: white;
+        }
+
+        .gender-container label {
+            margin-right: 10px;
+        }
+
+        .display-complete-form {
+            background: #5193f5 !important;
+            color: #ffffff !important;
+            width: 6em !important;
+            max-width: auto !important;
+        }
+
+        .label-f , .label-m {
+            min-width: 150px;
+        }
+
+        .label-f input, .label-m input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+        }
+
+        .label-m::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 24px;
+            width: 24px;
+            margin-left: 6px;
+            background: url(search/assets/images/icons/gender-male.png) no-repeat center center;
+            background-size: contain;
+        }
+
+        .label-f::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 24px;
+            width: 24px;
+            margin-left: 6px;
+            background: url(search/assets/images/icons/gender-female.png) no-repeat center center;
+            background-size: contain;
+        }
+
+        label:has(>input[type=radio]) {
+            text-transform: capitalize;
+            width: 100%;
+            height: 56px;
+            /* padding: 16px 24px; */
+            border-radius: 19px;
+            border: 1px;
+            background: #393c43;
+            color: #d7d8d9;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 18.77px;
+            letter-spacing: .003em;
+            text-align: start;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            position: relative;
+            /* padding-left: 10px; */
+        }
+
+        label:has(>input[type=radio]):after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            height: 24px;
+            width: 24px;
+            right: 16px
+        }
+
+        /* label:has(>input[type=radio]#male):after {
+            background: url("search/assets/images/icons/gender-male.png") no-repeat center center;
+            background-size: contain
+        }
+
+        label:has(>input[type=radio]#female):after {
+            background: url("search/assets/images/icons/gender-female.png") no-repeat center center;
+            background-size: contain
+        } */
+
+        label:has(>input[type=radio]:checked) {
+            background: #2998ff;
+            box-shadow: 0 0 0 4px rgba(41, 134, 255, 0.25)
+        }
+
+        label:has(>input[type=radio]:checked)[for=gay] {
+            background: linear-gradient(270deg,#0a78df 0,#ff6f00 18.14%,#ebb914 36.92%,#3a7e06 56.85%,#0e72e4 76.5%,#af0ee4 98.09%);
+            box-shadow: none
+        }
+
+        label:has(>input[type=radio]:checked)[for=bi] {
+            background: linear-gradient(90deg,#ff00e1 0,#9409f7 48%,#0047fc 100%);
+            box-shadow: none
+        }
+
+        @media (max-width: 991px){
+            .logo-principal-img{ 
+                width: 30%;
+                margin-top: 1%;
+                 
+                margin-right: auto;
+            }
+
+            .phase-1 {
+                flex-direction: column;
+            }
+
+            .display-complete-form {
+                margin-top: 10px;
+                max-width: none !important;
+            }
+        }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KSSMWK67');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="gtag/js?id=AW-17024832780">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17024832780');
+    </script>
+
+    <!-- Event snippet for Visualização de página conversion page -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17024832780/V65HCPbKwt4aEIyqibY_',
+            'value': 1.0,
+            'currency': 'BRL'
+        });
+    </script>
+  
+</head>
+
+<body class="cb-hp deferred-css lang-en" style="display: none;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSSMWK67" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Cabeçalho -->
+    <div class="header">
+        <div class="content">
+            <!--<div class="logo cheaterbusterLogo" data-href="/"></div>-->
+            <img class="logo-principal-img" src="images/Logo-SigiloX-red3.png">
+            <nav id="menu" class="panel" role="navigation">
+                <ul class="main-list">
+                    <!-- <li class="menuOverride showLoginPopUp header-cta main-link">Login</li> -->
+                    <span>Main</span>
+                </ul>
+                <ul id="resource-nav"><span>resources</span></ul>
+            </nav>
+            <div class="menu-open-overlay"></div>
+            <div class="mobile-btns">
+                <div style="margin-left: 8px;"><a href="#!"></a></div>
+            </div>
+        </div> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none">
+            <polygon fill="white" points="0,100 100,0 100,100"></polygon>
+        </svg>
+    </div>
+    <!-- Cabeçalho -->
+
+    <div class="main-content">
+        <div class="title-holder">
+            <div class="title-content">
+                <h1 class="druk">DESCUBRA SE SEU FILHO<br>ESTÁ VENDO CONTEUDOS NÃO PERMITIDOS.</h1>
+                <ul class="hp_bulletins">
+                    <li>PRECISO</li>
+                    <li>USANDO IA</li>
+                    <li>100% ANÔNIMO</li>
+                </ul>
+                <p>
+                    Saiba se ele(a) está usando ou usou o de forma indevida recentemente!
+                </p>
+            </div>
+            <form class="form-horizontal" id="form" onsubmit="handleSubmit(event)">
+                <div class="search-steps-container search-icon">
+                    <h2 class="druk">Voce esta buscando por:</h2>
+                    <div class="phase-1">
+                        <div class="steps gender-container">
+                            <label class="radio label-f" for="male">
+                                <input class="radio" id="male" type="radio" name="gender" value="M">Menino
+                            </label>
+                            <label class="radio label-m" for="female">
+                                <input class="radio" id="female" type="radio" name="gender" value="F">Menina
+                            </label>
+                        </div>
+                        <button type="submit" class="display-complete-form" style="max-width: auto !important;">BUSCAR</button>
+                    </div>
+                </div>
+            </form>
+            <div class="overlay"></div>
+        </div>
+
+        <!--
+        <div id="gma-video-container">
+            <div id="cheaterbuster-gma">
+                <div class="content">
+                    <p>Watch Cheaterbuster on <mark>Good Morning America</mark></p>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+        -->
+
+        <section class="cb-info" style="margin-top: 15px;">
+            <div class="cheat-tinder">
+                <button class="trynow"><span>Testar agora</span></button>
+            </div>
+            <div class="info">
+                <p class="whats-cb">Monitor360 é uma ferramenta que te ajuda a <span>descobrir</span> como um menor está usando o celular. Pesquisamos para ver se o seu <span>(Filho, sobrinho, afilhado)</span> estão cadastrados e usando alguma rede de forma <span>indesejada</span>.</p>
+
+                <span class="check-mark">Fácil de usar</span>
+                <p>Tudo que você precisa é do primeiro nome, idade e a localização que a pessoa usa a internet.
+                </p> <span class="check-mark">Última vez que usou</span>
+                <p>O Monitor360 te fala exatamente quando foi a última vez que a criança entrou em qualquer aplicativo e o que fez, com um
+                    relatório completo </p> <span class="check-mark">Informações do perfil</span>
+                <p>Veja seus post, o que curte ou comenta, biografia e muito mais!</p>
+            </div>
+        </section>
+        <section class="feature-section">
+            <h2>Voce vai descobrir tudo!</h2>
+            <p class="text-center">Monitor360 vai te mostrar...</p>
+            <div class="feature-container">
+                <div class="feature">
+                    <div class="icon stopwatch"></div> <span>Última atividade</span>
+                    <p>Data da última vez que a criança usou um aplicativo.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon location"></div> <span>Última localização</span>
+                    <p>Obtenha a última localização do uso. </p> <img src="images/hp-location-frame.webp" width="308" height="154" alt="last location" class="last-location-frame">
+                </div>
+                <div class="feature">
+                    <div class="icon profile"></div> <span>Atualizações do perfil</span>
+                    <p>Fotos, biografia, preferência de conteudo, contas conectadas.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon calendar"></div> <span>Data de criação</span>
+                    <p>Saiba exatamente quando a criança criou a conta.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon selfie"></div> <span>Verificação da conta</span>
+                    <p>Saiba como está a verificação do perfil.</p>
+                </div>
+                <div class="feature">
+                    <div class="icon tinder"></div> <span>Status da plataforma</span>
+                    <p>Saiba se visualizou algum conteudo sujestivo.</p>
+                </div>
+            </div>
+        </section>
+        <section class="comments-section">
+            <h2 class="druk">Quem usa mostra</h2>
+            <div class="comments-container">
+                <div class="comment"> <span class="chat-icon"></span>
+                    <p>Eu tinha dúvidas sobre meu filho no tiktok e no final, era verdade. Difícil de aceitar, mas
+                        pelo menos tenho certeza agora. Se você tiver dúvida, é melhor ter a certeza!</p>
+                </div>
+                <div class="comment"> <span class="chat-icon"></span>
+                    <p>O Monitor360 mudou minha vida. Infelizmente, descobri que minha filha estava sendo perseguida por homens. Consegui
+                        abrir os olhos e privar o uso dela. Díficil, mas é melhor saber a verdade. O site
+                        realmente entrega o que promete.</p>
+                </div>
+                <div class="comment"> <span class="chat-icon"></span>
+                    <p>Eu tinha dúvidas sobre meu sobrinho, mas usando o Monitor360 descobri que ele realmente não tinha uma
+                        idade adequada para ver esses videos. Que alívio!</p>
+                </div>
+                <div class="comment"> <span class="chat-icon"></span>
+                    <p>Estava com um pé atrás sobre meu filho e resolvi testar o Monitor360. Não é fácil encarar a
+                        verdade, mas pelo menos agora sei que ele não estava sendo honesto comigo. Me ajudou na decisão.
+                    </p>
+                </div>
+                <div class="comment"> <span class="chat-icon"></span>
+                    <p>Ele nunca tinha usado na vida, só pela dúvida resolvi testar e me surpreendi, foi difícil mas foi
+                        a melhor coisa que fiz na vida.</p>
+                </div>
+            </div>
+        </section>
+        <section class="FYI-section">
+
+            <ul class="FYI-facts FYI-faqs">
+                <li>
+                    <h2 class="druk">Perguntas frequentes</h2>
+                </li>
+                <li>
+                    <h3 class="hidden-heading">Consigo saber exatamente se a pessoa está usando o de forma maliciosa?</h3>
+                    <p>Sim, o Monitor360 obtém todas as informações públicas do perfil, incluindo a última vez que a pessoa
+                        utilizou o aplicativo, o que entrega outras pessoas que interagem com ela.</p>
+                </li>
+                <li>
+                    <h3 class="hidden-heading">Como vocês sabem que a pessoa está vendo conteudos improprios?</h3>
+                    <p>Os perfis da internet são públicos, você só precisa encontra-los da maneira certa entre os milhões
+                        de perfis que estão no aplicativo, e nós fazemos isso. Possuímos um algorítimo de busca
+                        inteligente com IA, onde buscamos de maneira instantânea a pessoa que quiser achar.</p>
+                </li>
+                <li>
+                    <h3 class="hidden-heading">É possível achar pelo número de telefone?</h3>
+                    <p>Infelizmente não, o número de telefone não é um dado público, porém conseguimos buscar
+                        pelo nome, idade, localização e foto, sendo extremamente assertivo!</p>
+                </li>
+                <li>
+                    <h3 class="hidden-heading">Preciso criar uma conta para procurar alguém?</h3>
+                    <p>O Monitor360 é o mecanismo de busca, você não precisa criar uma conta e nem usar esse conteudo (caso
+                        tenha) para procurar por alguém específico, nós fazemos todo o trabalho por você.</p>
+                </li>
+                <li>
+                    <h3 class="hidden-heading">Eu preciso pagar o Monitor360?</h3>
+                    <p>Sim, cada busca tem um custo operacional para nós, o preço pago por cada busca é de apenas R$
+                        37,90.</p>
+                </li>
+                <li>
+                    <h3 class="hidden-heading">Posso achar alguém só pelo nome?</h3>
+                    <p>Sim, em contas geralmente a pessoa coloca o primeiro nome dela no perfil, o que torna possível encontrar uma
+                        pessoa específica pelo seu nome, quando a pessoa não coloca o nome, tem seu numero e localização o que torna 99% acertivo!</p>
+                </li>
+            </ul>
+        </section>
+    </div><svg style="display: none; visibility: hidden; position: absolute;">
+        <defs>
+            <filter id="gooey-filter">
+                <fegaussianblur in="SourceGraphic" result="blur" stddeviation="1"></fegaussianblur>
+                <fecolormatrix in="blur" result="colormatrix" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 58 -9"></fecolormatrix>
+                <feblend in="SourceGraphic" in2="colormatrix"></feblend>
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="siteFooter">
+        <h3>Sigilo <span>X</span></h3> <span class="copyright">© SigiloX 2025.</span>
+
+        <div class="social-links">
+            <a href="https://sigilox.com/instagram" class="instagram" aria-label="instagram"></a> 
+            <a href="https://sigilox.com/youtube" class="youtube" aria-label="youtube"></a>
+            <a href="https://sigilox.com/tiktok" class="tiktok" aria-label="tiktok"></a> 
+        </div>
+        
+        <div class="footer-links-container">
+            <div class="main-links"> 
+                <span>Funcionalidades</span> 
+                <a href="index-1.htm">Procurar</a>
+<a href="ver-consulta/index.htm">Já comprei</a> 
+            </div>
+            <div class="resource-links"> 
+                <span>Recursos</span> 
+                <a href="sobre-nos/index.htm">Sobre nós</a> 
+                <a href="faq/index.htm">FAQ</a>
+            </div>
+        </div>
+
+        <div class="pp-tc-links">
+            <a href="https://sigilox.com/politica-de-privacidade">Política de privacidade</a> 
+            <a href="https://sigilox.com/termos-e-condicoes-de-uso">Termos e condições de uso</a> 
+        </div>
+    </footer>
+    <!-- Rodapé -->
+
+    <div class="modal-overlay">
+        <div class="modal-background"></div>
+        <div class="modal-content"></div>
+    </div>
+
+    <link href="css/new-site.min4709.css" rel="preload stylesheet" type="text/css" media="print" onload="this.media='all'"> 
+    <script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Tag global do site (GA4) - substitua G-XXXXXXXXXX pelo seu Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX'); // seu Measurement ID
+
+  // Detecta dispositivo
+  function getDeviceType() {
+      const ua = navigator.userAgent;
+      if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+          return "mobile";
+      }
+      return "desktop";
+  }
+
+  // Pega parâmetros da URL
+  function getUrlParams() {
+      const searchParams = new URLSearchParams(window.location.search);
+      const params = {};
+      for (const [key, value] of searchParams.entries()) {
+          params[key] = value;
+      }
+      return params;
+  }
+
+  // Rastreia eventos no GA4
+  function trackEvent(eventName) {
+      const page = window.location.pathname;
+      const urlParams = getUrlParams();
+      const device = getDeviceType();
+
+      gtag('event', eventName, {
+          page_path: page,
+          device: device,
+          url_params: JSON.stringify(urlParams)
+      });
+  }
+
+  // Inicializa tracking
+  function initializeTracking() {
+      const searchForm = document.getElementById('form');
+      if (searchForm) {
+          searchForm.addEventListener('submit', () => {
+              trackEvent('landing_page_search_submit');
+          });
+      }
+
+      const tryNowButton = document.querySelector('.trynow');
+      if (tryNowButton) {
+          tryNowButton.addEventListener('click', () => {
+              trackEvent('landing_page_try_now_click');
+          });
+      }
+
+      const faqItems = document.querySelectorAll('.FYI-facts li');
+      faqItems.forEach(item => {
+          item.addEventListener('click', () => {
+              const heading = item.querySelector('.hidden-heading');
+              if (heading) {
+                  trackEvent(`faq_click_${heading.textContent.toLowerCase().replace(/[^a-z0-9]/g, '_')}`);
+              }
+          });
+      });
+
+      const socialLinks = document.querySelectorAll('.social-links a');
+      socialLinks.forEach(link => {
+          link.addEventListener('click', () => {
+              trackEvent(`social_click_${link.className}`);
+          });
+      });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+      initializeTracking();
+      setTimeout(() => {
+          trackEvent('landing_page_view');
+      }, 100);
+  });
+</script>
+
+    <script>
+    // Exibe o formulário com classe "popUp" quando o usuário rola até perto dele
+    let popUp = $('.form-horizontal');
+
+    $(window).scroll(function() {
+        const shouldPopUp = $(window).scrollTop() >= (popUp.offset().top + popUp.height() - 100);
+        if (shouldPopUp) {
+            $('.form-horizontal').addClass('popUp');
+        }
+    });
+
+    // Abre/fecha itens da lista ao clicar (accordion)
+    $('.FYI-facts li').on('click', (e) => {
+        let fact = e.currentTarget;
+        if ($(fact).hasClass('opened')) {
+            $(fact).removeClass('opened');
+        } else {
+            $(fact).addClass('opened');
+        }
+    });
+</script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("form");
+            const genderRadios = document.querySelectorAll('input[name="gender"]');
+            const submitButton = form.querySelector(".display-complete-form");
+
+            // Desativa o botão inicialmente
+            submitButton.disabled = true;
+            submitButton.style.opacity = "0.5";
+            submitButton.style.cursor = "not-allowed";
+            // submitButton.style.maxWidth = "auto";
+
+            // Habilita o botão quando um gênero for selecionado
+            genderRadios.forEach(radio => {
+                radio.addEventListener("change", function () {
+                    if (document.querySelector('input[name="gender"]:checked')) {
+                        submitButton.disabled = false;
+                        submitButton.style.opacity = "1";
+                        submitButton.style.cursor = "pointer";
+                    }
+                });
+            });
+
+            // Intercepta o envio do formulário
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const selectedGender = document.querySelector('input[name="gender"]:checked');
+                if (selectedGender) {
+                    const gender = selectedGender.value;
+
+                    const currentParams = new URLSearchParams(window.location.search);
+
+                    currentParams.set("gender", gender);
+
+                    window.location.href = `./search/?${currentParams.toString()}`;
+                }
+            });
+
+            const ctaButtons = document.querySelectorAll('.cta-button')
+
+            ctaButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const currentParams = new URLSearchParams(window.location.search);
+
+                    window.location.href = `./search/?${currentParams.toString()}`;
+                })
+            })
+        });
+    </script>
+    
+</body>
+
+</html>
