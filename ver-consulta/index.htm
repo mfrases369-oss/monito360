@@ -75,7 +75,7 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KSSMWK67');</script>
+    })(window,document,'script','dataLayer','G-RHDTPVEGZ2');</script>
     <!-- End Google Tag Manager -->
 </head>
 
@@ -341,90 +341,84 @@
     <script id="mainJs" src="assets/js/new-site.min.js"></script>
 
     <script>
-        function getDeviceType() {
-            const ua = navigator.userAgent;
-            if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
-                return "mobile";
-            }
-            return "desktop";
-        }
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-RHDTPVEGZ2'); // seu Measurement ID
 
-        function getUrlParams() {
-            const searchParams = new URLSearchParams(window.location.search);
-            const params = {};
-            
-            for (const [key, value] of searchParams.entries()) {
-                params[key] = value;
-            }
-            
-            return params;
-        }
+  // Detecta dispositivo
+  function getDeviceType() {
+      const ua = navigator.userAgent;
+      if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+          return "mobile";
+      }
+      return "desktop";
+  }
 
-        function trackEvent(eventName) {
-            const img = new Image();
-            const page = window.location.pathname;
-            const urlParams = getUrlParams();
-            const device = getDeviceType();
-            
-            const params = {
-                event: eventName,
-                page: page,
-                device: device,
-                jsonParams: JSON.stringify(urlParams)
-            };
+  // Pega parâmetros da URL
+  function getUrlParams() {
+      const searchParams = new URLSearchParams(window.location.search);
+      const params = {};
+      for (const [key, value] of searchParams.entries()) {
+          params[key] = value;
+      }
+      return params;
+  }
 
-            // img.src = `/search/Controllers/PixelController.php?RegisterEvent=1&data=${encodeURIComponent(JSON.stringify(params))}`;
-        }
+  // Rastreia eventos no GA4
+  function trackEvent(eventName) {
+      const page = window.location.pathname;
+      const urlParams = getUrlParams();
+      const device = getDeviceType();
 
-        function initializeSearchTracking() {
-            // Track page view when the page loads
-            document.addEventListener('DOMContentLoaded', () => {
-                trackEvent('search_page_view');
-                
-                // Track search form submission
-                const searchForm = document.querySelector('#submitForm');
-                if (searchForm) {
-                    searchForm.addEventListener('click', () => {
-                        trackEvent('search_form_submit');
-                    });
-                }
+      gtag('event', eventName, {
+          page_path: page,
+          device: device,
+          url_params: JSON.stringify(urlParams)
+      });
+  }
 
-                // Track search input interactions
-                const searchInputs = document.querySelectorAll('input[type="text"]');
-                searchInputs.forEach(input => {
-                    input.addEventListener('focus', () => {
-                        trackEvent('search_input_focus');
-                    });
-                });
+  // Inicializa tracking
+  function initializeTracking() {
+      const searchForm = document.getElementById('form');
+      if (searchForm) {
+          searchForm.addEventListener('submit', () => {
+              trackEvent('landing_page_search_submit');
+          });
+      }
 
-                // Track search button clicks
-                const searchButtons = document.querySelectorAll('button[type="submit"]');
-                searchButtons.forEach(button => {
-                    button.addEventListener('click', () => {
-                        trackEvent('search_button_click');
-                    });
-                });
+      const tryNowButton = document.querySelector('.trynow');
+      if (tryNowButton) {
+          tryNowButton.addEventListener('click', () => {
+              trackEvent('landing_page_try_now_click');
+          });
+      }
 
-                // Track navigation interactions
-                const navigationLinks = document.querySelectorAll('nav a');
-                navigationLinks.forEach(link => {
-                    link.addEventListener('click', () => {
-                        trackEvent(`navigation_click_${link.textContent.toLowerCase().replace(/[^a-z0-9]/g, '_')}`);
-                    });
-                });
+      const faqItems = document.querySelectorAll('.FYI-facts li');
+      faqItems.forEach(item => {
+          item.addEventListener('click', () => {
+              const heading = item.querySelector('.hidden-heading');
+              if (heading) {
+                  trackEvent(`faq_click_${heading.textContent.toLowerCase().replace(/[^a-z0-9]/g, '_')}`);
+              }
+          });
+      });
 
-                // Track login button clicks
-                const loginButtons = document.querySelectorAll('.showLoginPopUp, .mobile-btns a');
-                loginButtons.forEach(button => {
-                    button.addEventListener('click', () => {
-                        trackEvent('login_button_click');
-                    });
-                });
-            });
-        }
+      const socialLinks = document.querySelectorAll('.social-links a');
+      socialLinks.forEach(link => {
+          link.addEventListener('click', () => {
+              trackEvent(`social_click_${link.className}`);
+          });
+      });
+  }
 
-        initializeSearchTracking();
-    </script>
+  document.addEventListener('DOMContentLoaded', () => {
+      initializeTracking();
+      setTimeout(() => {
+          trackEvent('landing_page_view');
+      }, 100);
+  });
+</script>
 
     <script>
         function normalizarTexto(texto) {
